@@ -81,7 +81,7 @@ themeToggleBtn.onclick = () => {
         } else {
             document.body.classList.remove('body');
             document.body.classList.add('light');
-            themeToggleBtn.innerHTML = '🌞';
+            themeToggleBtn.innerHTML = '☀️';
         }
     });
 };
