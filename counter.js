@@ -33,9 +33,9 @@ function createButton(id, text) {
 }
 
 // Crea e aggiungi bottoni contatore
-const decreaseBtn = createButton('decreaseBtn', 'Decrease');
+const decreaseBtn = createButton('decreaseBtn', '-');
 const resetBtn = createButton('resetBtn', 'Reset');
-const increaseBtn = createButton('increaseBtn', 'Increase');
+const increaseBtn = createButton('increaseBtn', '+');
 
 btnContainer.appendChild(decreaseBtn);
 btnContainer.appendChild(resetBtn);
